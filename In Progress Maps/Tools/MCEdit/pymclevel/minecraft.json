@@ -7915,13 +7915,22 @@
 			"tex": [18,19],
 			"mapcolor": [120,120,120],
 			"idStr": "purpur_double_slab",
-			"name": "Double Purpur Slabs",
+			"name": "Purpur Double Slab",
 			"id": 204
 		},{
+			"data": {
+				"0": {
+					"name": "Purpur Slab (Bottom)"
+				},
+				"8": {
+					"name": "Purpur Slab (Top)"
+				}
+			},
 			"tex": [18,19],
 			"mapcolor": [120,120,120],
 			"idStr": "purpur_slab",
 			"name": "Purpur Slab",
+			"type": "HALFHEIGHT",
 			"id": 205
 		},{
 			"tex": [18,18],
