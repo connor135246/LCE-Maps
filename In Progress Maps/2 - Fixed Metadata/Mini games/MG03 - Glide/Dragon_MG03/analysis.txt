@@ -265,7 +265,7 @@ Number,Type,ID
 1379,Mossy Stone Bricks,(98:1)
 1930,Cracked Stone Bricks,(98:2)
 694,Chiseled Stone Bricks,(98:3)
-57,Brown Mushroom Block (All Inside),(99:0)
+57,Brown Mushroom Block (All Outside),(99:14)
 3804,Iron Bars,(101:0)
 895,Glass Pane,(102:0)
 7,Melon,(103:0)

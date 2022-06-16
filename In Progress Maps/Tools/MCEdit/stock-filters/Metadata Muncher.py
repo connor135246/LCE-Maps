@@ -87,6 +87,9 @@ def getFixedData((block, data)):
 	# tall grass is a little weird... we'll assume that most of the time, people will use dead bushes when they want dead bushes instead of the unobtainable shrubs.
 	elif block == 31:
 		return 1
+	# big mushroom blocks with metadata 11 are "all outside" in console, but unknown in java. java's "all outside" is metadata 14.
+	elif block in [99, 100] and data == 11:
+		return 14
 	else:
 		return 0
 
