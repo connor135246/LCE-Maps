@@ -12,6 +12,7 @@ The last Battle maps were added in Patch 18 - February 28th 2017.
 The last Tumble maps were added in Patch 30 - December 19th 2017.  
 The last Glide maps were added in Patch 27 - August 29th 2017.  
 Since all Mini game maps were released before the flattening, there shouldn't be any major issues converting them to Java Edition. All ids should be converted with the datafixer.
+- If you want to bring a map to 1.13+, make sure to open the world and load all the chunks in 1.12 at least once first. Otherwise you may end up with chunks that don't load and softlock the server.
 
 ### Tips
 - Sometimes the world spawn can be pretty far from where the map itself is built. One way to find the map is to use the the "Find Entity" tool in MCC Tool Chest to search for entities/tile entities that are in the map, such as paintings or chests.
